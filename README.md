@@ -30,3 +30,13 @@ As per Brett Yakus, an **Active** business license is defined by Financial Manag
 - Conditionl
 
 Thereby, **Inactive** licenses are those that are not of the above statuses.
+
+### Start Date, Service Date, and Milestone Date
+
+- The **Start Date** for a business license is self-reported by the licensee. The majority of the start dates are the projected opening dates for an establishment.
+- The **Service Date** of a business license is... This is also sometime referenced as the "process date".
+- The **Milestone Date** column is populated with the last milestone date event corresponding to the **Milestone** column. You can wrangle the milestone events for a license by joining the `business_license` and `milestone` tables. 
+
+### Caveats
+
+- Version 3 of LMR/Hansen for business licensing went online on August 2015. The newest version of Hansen now tracks and records the status of all applications/licenses electronically. The majority of licenses before then were handled by paper. As a result of this, calculations pertaining to Milestones or Permits (like "Days to Issue") are only accurate for licenses after August 2015.
